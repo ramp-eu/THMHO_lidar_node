@@ -4,7 +4,7 @@
 mkdir -p catkin_ws/src && cd catkin_ws/src
 
 # Download the repository
-git clone https://github.com/ipa-rar/betterfactory_lidar_firos.git
+git clone https://github.com/ipa320/THMHO_lidar_node.git
 
 # Download dependencies
 cd THMHO_lidar_node
