@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>firos_lidar_bringup</name>
+  <version>0.0.0</version>
+  <description>The firos_lidar_bringup package</description>
+
+ <maintainer email="ragesh.ramachandran@ipa.fraunhofer.de">Ragesh</maintainer>
+  <license>TODO</license>
+  
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>rospy</build_depend>
+  <build_export_depend>rospy</build_export_depend>
+  <exec_depend>rospy</exec_depend>
+  <exec_depend>firos</exec_depend>
+  <exec_depend>sick_scan</exec_depend>
+
+  <export>
+
+
+  </export>
+</package>

@@ -1,0 +1,12 @@
+<launch>
+  <arg name="config_path" default="$(find firos_lidar_bringup)/config/" />
+  <arg name="firos_node" default="firos" />
+  <arg name="node_name" default="node_n"/>
+
+  <group ns="$(arg node_name)">
+  <node name="$(arg firos_node)" pkg="firos" type="core.py" output="screen" args="--conf $(arg config_path)">
+    <param name="config_path" value="$(arg config_path)" />
+  </node>
+  </group>
+
+</launch>
