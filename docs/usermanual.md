@@ -1,1 +1,14 @@
-usermanual.md
+## Usage 
+
+### Bringup the Lidar node
+- Terminal 1
+```
+source ~/catkin_ws/devel/setup.bash
+roslaunch firos_lidar_bringup lidar_bringup.launch
+```
+- Terminal 2
+### Brinup the firos node
+```
+source ~/catkin_ws/devel/setup.bash
+roslaunch firos_lidar_bringup firos_bringup.launch
+```
