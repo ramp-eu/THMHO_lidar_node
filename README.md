@@ -75,6 +75,15 @@ Once you have started up the entire system you can check the contents in the OCB
 - firos fails to launch - run the orion_context_broker first before running the firos
 - Nothing is subscribed/published - firos should be the last one to be started as it works by creating the snapshop of the current running system.
 
+
+## Feedback
+
+Any feedback and suggestions can be submitted by creating New issue in the Issues tab or by emailing the team. 
+
+## Contribution
+
+In order to contribute you will have to request to be added to the project. 
+
 ## License
 
-[MIT](LICENSE) © <THMHO_lidar_node>
+The project is licensed under the [Apache-2](https://opensource.org/licenses/Apache-2.0) license.
