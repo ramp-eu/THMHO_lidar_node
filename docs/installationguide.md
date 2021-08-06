@@ -1,5 +1,5 @@
 ## Installation
-The instalaltion instructions are meant for devices with
+The installation instructions are meant for devices with
 - Ubuntu 20.04 or higher
 - [ROS noetic](http://wiki.ros.org/noetic/Installation/Ubuntu)
 

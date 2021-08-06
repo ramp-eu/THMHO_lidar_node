@@ -25,6 +25,8 @@ This project is part of [DIH^2](http://www.dih-squared.eu/). For more informatio
 -   [Usage](#usage)
 -   [API](#api)
 -   [Testing](#testing)
+-   [Feedback](#feedback)
+-   [Contribution](#contribution)
 -   [License](#license)
 
 ## Background
