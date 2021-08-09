@@ -8,7 +8,7 @@
 [![CI](https://github.com/ramp-eu/TTE.project1/workflows/CI/badge.svg)](https://github.com/ramp-eu/TTE.project1/actions?query=workflow%3ACI)
 [![Coverage Status](https://coveralls.io/repos/github/ramp-eu/TTE.project1/badge.svg?branch=master)](https://coveralls.io/github/ramp-eu/TTE.project1?branch=master)
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/fce8e4a4dfe140bb9963b88aaf1a2b03)](https://www.codacy.com/gh/ramp-eu/THMHO_lidar_node/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=ramp-eu/THMHO_lidar_node&amp;utm_campaign=Badge_Grade)
-[![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/4187/badge)](https://bestpractices.coreinfrastructure.org/projects/4187)
+[![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/5132/badge)](https://bestpractices.coreinfrastructure.org/projects/5132)
 
 
 This project is part of [DIH^2](http://www.dih-squared.eu/). For more information check the RAMP Catalogue entry for the
