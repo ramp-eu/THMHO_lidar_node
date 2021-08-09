@@ -17,7 +17,6 @@ This project is part of [DIH^2](http://www.dih-squared.eu/). For more informatio
 | :books: [Documentation](https://THMHO_lidar_node.readthedocs.io/en/latest/) | :whale: [Docker Hub](https://hub.docker.com/r/link-to-docker) |
 | --------------------------------------------- | ------------------------------------------------------------- |
 
-
 ## Contents
 
 -   [Background](#background)
