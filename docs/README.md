@@ -4,7 +4,7 @@
 [![Docker badge](https://img.shields.io/docker/pulls/ramp-eu/TTE.project1.svg)](https://hub.docker.com/r/<org>/<repo>/)
 <br/>
 
-[![Documentation Status](https://readthedocs.org/projects/tte-project1/badge/?version=latest)](https://tte-project1.readthedocs.io/en/latest/?badge=latest)
+[![Documentation Status](https://readthedocs.org/projects/thmho-lidar-node/badge/?version=latest)](https://thmho-lidar-node.readthedocs.io/en/latest/?badge=latest)
 [![CI](https://github.com/ramp-eu/TTE.project1/workflows/CI/badge.svg)](https://github.com/ramp-eu/TTE.project1/actions?query=workflow%3ACI)
 [![Coverage Status](https://coveralls.io/repos/github/ramp-eu/TTE.project1/badge.svg?branch=master)](https://coveralls.io/github/ramp-eu/TTE.project1?branch=master)
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/fce8e4a4dfe140bb9963b88aaf1a2b03)](https://www.codacy.com/gh/ramp-eu/THMHO_lidar_node/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=ramp-eu/THMHO_lidar_node&amp;utm_campaign=Badge_Grade)
