@@ -56,25 +56,25 @@ Once you have started up the entire system you can check the contents in the OCB
 
 - To list the content that are subscribed by the OCB
 
-    ```json
-    http://localhost:1026/v2/entities
-    ```
+```json
+http://localhost:1026/v2/entities
+```
 - To list the type of messages that are subscribed by the OCB
 
-    ```json
-    http://localhost:1026/v2/types
-    ```
+```json
+http://localhost:1026/v2/types
+```
 - To check the status of FIROS
 
-    ```json
-    http://localhost:10100
-    ```
+```json
+http://localhost:10100
+```
 
 - To list the topics subscribed/published by FIROS
 
-    ```json
-    http://localhost:10100/topics
-    ```
+```json
+http://localhost:10100/topics
+```
 
 
 ### Troubleshooting
