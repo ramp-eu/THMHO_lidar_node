@@ -17,7 +17,6 @@ This project is part of [DIH^2](http://www.dih-squared.eu/). For more informatio
 | :books: [Documentation](https://THMHO_lidar_node.readthedocs.io/en/latest/) | :whale: [Docker Hub](https://hub.docker.com/r/link-to-docker) |
 | --------------------------------------------- | ------------------------------------------------------------- |
 
-
 ## Contents
 
 -   [Background](#background)
@@ -56,21 +55,26 @@ If there is a physical test setup available, one can follow the steps below.
 Once you have started up the entire system you can check the contents in the OCB. You can do this by using terminal, postman and web-browser. Web browser is most convenient way as it pretty format the json contents. replace `localhost` with the `ipaddress` of the hostmachine hosting the OCB.
 
 - To list the content that are subscribed by the OCB
-    ```
+
+    ```json
     http://localhost:1026/v2/entities
     ```
 - To list the type of messages that are subscribed by the OCB
-    ```
+
+    ```json
     http://localhost:1026/v2/types
     ```
 - To check the status of FIROS
-    ```
+
+    ```json
     http://localhost:10100
+    ```
 
 - To list the topics subscribed/published by FIROS
-    ```
-    http://localhost:10100/topics
 
+    ```json
+    http://localhost:10100/topics
+    ```
 
 
 ### Troubleshooting

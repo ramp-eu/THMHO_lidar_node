@@ -1,0 +1,17 @@
+site_name: THMHO Lidar Node 
+site_url: https://github.com/ramp-eu/THMHO_lidar_node
+repo_url: https://github.com/ramp-eu/THMHO_lidar_node
+site_description: THMHO Lidar Node Documentation
+docs_dir: docs
+site_dir: html
+markdown_extensions: [toc,fenced_code]
+use_directory_urls: false
+theme: readthedocs
+nav:
+  - Home: 'README.md'
+  - Configuration: 'getting-started.md'
+  - User & Programmers Manual:
+    - 'Architecture' : 'architecture.md'
+    - 'User Guide': 'getting-started.md'
+  - 'Installation & Administration Manual':
+    - 'Installation Guide': 'installationguide.md'
