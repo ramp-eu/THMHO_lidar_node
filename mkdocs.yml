@@ -1,6 +1,6 @@
 site_name: THMHO Lidar Node 
-site_url: https://github.com/ramp-eu/THMHO_lidar_node.git
-repo_url: https://github.com/ramp-eu/THMHO_lidar_node.git
+site_url: https://github.com/ramp-eu/THMHO_lidar_node
+repo_url: https://github.com/ramp-eu/THMHO_lidar_node
 site_description: THMHO Lidar Node Documentation
 docs_dir: docs
 site_dir: html
