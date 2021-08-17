@@ -1,7 +1,7 @@
 # Temporal Heat Map for Human Occupancy - 2D Lidar Node
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-[![Docker badge](https://img.shields.io/docker/pulls/ramp-eu/TTE.project1.svg)](https://hub.docker.com/r/<org>/<repo>/)
+[![Docker badge](https://img.shields.io/docker/pulls/ragesh18/thmho-lidar-node.svg)](https://hub.docker.com/repository/docker/ragesh18/thmho-lidar-node)
 <br/>
 
 [![Documentation Status](https://readthedocs.org/projects/thmho-lidar-node/badge/?version=latest)](https://thmho-lidar-node.readthedocs.io/en/latest/?badge=latest)
