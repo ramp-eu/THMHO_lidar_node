@@ -25,7 +25,7 @@ jobs:
         username: ${{ github.actor }}
         password: ${{ secrets.GITHUB_TOKEN }}
         registry: docker.pkg.github.com
-        repository: ${{ github.repository }}/webnext
+        repository: ${{ github.repository }}/thmho-lidar-node
         tags: latest, ${{ github.run_number }}
     - name: Push to Docker Hub
       uses: docker/build-push-action@v1
