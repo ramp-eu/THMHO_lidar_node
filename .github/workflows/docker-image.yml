@@ -42,6 +42,8 @@ jobs:
           images: |
             ragesh18/thmho-lidar-node
             ghcr.io/${{ github.repository }}
+          tags: ${{ steps.meta.outputs.tags }}
+          labels: ${{ steps.meta.outputs.labels }}
       
       - name: Build and push Docker images
         uses: docker/build-push-action@ad44023a93711e3deb337508980b4b5e9bcdc5dc
