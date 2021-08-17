@@ -23,7 +23,7 @@ RUN	cd THMHO_lidar_node \
 WORKDIR $CATKIN_WS
 RUN echo "Pulling & Compiling THMHO lidar node" \
 	&& source /opt/ros/noetic/setup.bash \
-	&& rosdep update && rosdep install --from-paths ~/catkin_ws/src --ignore-src \
+	&& apt-get install ros-noetic-tf2-msgs \
 	&& catkin_make \
     && rm -rf /var/lib/apt/lists/*
 
