@@ -21,6 +21,11 @@
         type="static_transform_publisher" 
         args="$(arg x) $(arg y) $(arg z) $(arg alpha) $(arg beta) $(arg gama) map $(arg node_name) 100">
   </node>
+  <node name="rviz" 
+        pkg="rviz" 
+        type="rviz" 
+        args="-d $(find betterfactory_bringup)/config/visualization.rviz">
+  </node>
   </group>
 
 </launch>
