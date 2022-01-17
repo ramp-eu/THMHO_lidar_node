@@ -10,9 +10,7 @@ jobs:
 
   build:
 
-    runs-on: ubuntu-latest
-    env:      
-      DOCKER_TARGET_PLATFORM: linux/arm64/v8 
+    runs-on: ubuntu-latest 
     permissions:
       packages: write
       contents: read
@@ -55,5 +53,5 @@ jobs:
           push: true
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
-          target: $DOCKER_TARGET_PLATFORM
+          target: linux/arm64/v8
 
