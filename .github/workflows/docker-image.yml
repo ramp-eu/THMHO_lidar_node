@@ -50,8 +50,8 @@ jobs:
         with:
           file: docker/Dockerfile
           context: ./docker
+          platforms: linux/arm64
           push: true
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
-          platforms: linux/arm64
 
