@@ -23,16 +23,9 @@ RUN	cd THMHO_lidar_node \
 WORKDIR $CATKIN_WS
 RUN echo "Pulling & Compiling THMHO lidar node" \
 	&& source /opt/ros/noetic/setup.bash \
-	&& apt-get install ros-noetic-tf2-msgs \
+	&& apt-get install ros-noetic-tf2 -y && apt-get install ros-noetic-tf -y \
 	&& catkin_make \
     && rm -rf /var/lib/apt/lists/*
 
-RUN echo "source /entrypoint.sh" >> /root/.bashrc
+ENTRYPOINT ["/root/run.sh"]
 
-COPY ./entrypoint.sh /
-
-RUN chmod +x /entrypoint.sh
-
-RUN /entrypoint.sh
-
-ENTRYPOINT ["/run.sh"]
