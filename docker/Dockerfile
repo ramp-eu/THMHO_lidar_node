@@ -30,7 +30,9 @@ RUN echo "Pulling & Compiling THMHO lidar node" \
 RUN echo "source /entrypoint.sh" >> /root/.bashrc
 
 COPY ./entrypoint.sh /
+
 RUN chmod +x /entrypoint.sh
 
-ENTRYPOINT ["/entrypoint.sh"]
-CMD ["bash"]
+RUN /entrypoint.sh
+
+ENTRYPOINT ["/run.sh"]
