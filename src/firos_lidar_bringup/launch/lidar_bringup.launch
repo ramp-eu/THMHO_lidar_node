@@ -15,7 +15,7 @@
   <include file="$(find rplidar_ros)/launch/rplidar.launch" />
   <param name="rplidarNode/frame_id"  
         type="string" 
-        alue="$(arg node_name)" />
+        value="$(arg node_name)" />
   <node name="$(arg tf_node)" 
         pkg="tf" 
         type="static_transform_publisher" 
