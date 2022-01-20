@@ -13,7 +13,7 @@ ENV CATKIN_WS=/root/catkin_ws
 RUN mkdir -p $CATKIN_WS/src
 WORKDIR $CATKIN_WS/src
 
-RUN https://github.com/ramp-eu/THMHO_lidar_node.git
+RUN git clone https://github.com/ramp-eu/THMHO_lidar_node.git
 
 RUN	cd THMHO_lidar_node \
 	&& wstool init . \
