@@ -1,4 +1,4 @@
-name: Docker Image CI
+name: thmho-lidar-node
 
 on:
   push:
